@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: sans-serif;
+
 }
 
 header {
@@ -50,10 +54,16 @@ h2 {
 .p {
     text-align: center;
 }
+.p:hover{
+    color:rgb(4, 205, 255);
+}
 .h1{
     color: white;
     padding-top: 100px;
     text-align: center;
+}
+.h1:hover{
+    color: blue;
 }
 .a {
     color: white;
@@ -73,4 +83,21 @@ footer {
 .nav {
     display: flex;
     justify-content: center;
+}
+
+.footer {
+    
+    text-align: center;
+
+}
+.footer:hover {
+    color:  rgb(7, 56, 204);
+    transition: 3s linear;
+}
+.h2:hover{
+    color: blue;
+    transition: 1s linear;
+}
+.a:hover{
+    color: rgb(30, 255, 0);
 }
